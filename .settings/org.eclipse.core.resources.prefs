@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/Banner.jsp=UTF-8
+encoding//WebContent/Footer.jsp=UTF-8
+encoding//WebContent/Header.jsp=UTF-8
+encoding//src/com/aptech/shop/dao/BrandDao.java=UTF-8
+encoding//src/com/aptech/shop/dao/CategoryDao.java=UTF-8
+encoding//src/com/aptech/shop/utility/DbConnect.java=UTF-8

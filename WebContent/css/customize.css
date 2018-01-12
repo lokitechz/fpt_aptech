@@ -1,0 +1,12 @@
+table {
+	width: 100%;
+}
+
+#ID {
+	width: 50px;
+}
+
+#Action {
+	width: 80px;
+	text-align: center;
+}
