@@ -52,7 +52,8 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							Danh sách danh mục sản phẩm của website
-							<a href="Insert_Category.jsp" class="btn btn-success" onclick="">
+							<a href="${root }/Admin/Insert_Category.jsp"
+								class="btn btn-success" onclick="">
 								<em class="fa fa-plus"></em>
 							</a>
 						</div>

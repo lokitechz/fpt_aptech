@@ -32,13 +32,12 @@ public class CategoryDao {
 	}
 
 	// Thêm danh mục
-	public boolean addCategory(Category c) throws SQLException {
+	public boolean addCategory(String cateName) throws SQLException {
 		try {
 			Connection con = DbConnect.getConnecttion();
-			String sql = "INSERT INTO Category VALUE(?,?)";
+			String sql = "INSERT INTO category(category_name) VALUE(?)";
 			PreparedStatement ps = con.prepareCall(sql);
-			ps.setLong(1, c.getCateId());
-			ps.setString(2, c.getCateName());
+			ps.setString(1, cateName);
 			int temp = ps.executeUpdate();
 			return temp == 1;
 		} catch (Exception e) {

@@ -53,16 +53,13 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-12">
-									<form role="form" action="ManagerCategoryServlet" method="post">
-										<div class="form-group">
-											<label>Mã danh mục</label>
-											<input class="form-control"
-												placeholder="Nhập mã của danh mục">
-										</div>
+									<form role="form"
+										action="${pageContext.request.contextPath}/ManagerCategoryServlet"
+										method="post">
 										<div class="form-group">
 											<label>Tên danh mục</label>
 											<input class="form-control"
-												placeholder="Nhập tên của danh mục">
+												placeholder="Nhập tên của danh mục" name="CateName" required>
 										</div>
 										<button type="submit" class="btn btn-success">
 											Lưu danh mục

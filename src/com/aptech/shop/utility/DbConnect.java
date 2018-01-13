@@ -8,7 +8,7 @@ public class DbConnect {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fpt_aptech", "root", "123456");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fpt_aptech?useSSL=false", "root", "123456");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -60,7 +60,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="ManagerProduct.jsp">
+					<a href="ManagerCategory.jsp">
 						<i class="fa fa-list fa-fw"></i>
 						Danh sách sản phẩm
 					</a>
