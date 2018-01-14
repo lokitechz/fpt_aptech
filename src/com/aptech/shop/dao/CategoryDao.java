@@ -10,7 +10,7 @@ import com.aptech.shop.model.Category;
 import com.aptech.shop.utility.DbConnect;
 
 public class CategoryDao {
-	// Lấy danh sách thể loại
+	// Lấy danh sách danh mục
 	public ArrayList<Category> getListCategory() throws SQLException, ClassNotFoundException {
 		Connection con = DbConnect.getConnecttion();
 		String sql = "SELECT * FROM Category";

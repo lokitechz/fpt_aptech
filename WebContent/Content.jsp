@@ -68,7 +68,9 @@
 								<img src="<%=p.getProductImage()%>" alt="" />
 								<h2>
 									$<%=p.getProductPrice()%></h2>
-								<p><%=p.getProductName()%></p>
+								<p>
+									<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+								</p>
 								<a href="#" class="btn btn-default add-to-cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng
@@ -93,7 +95,9 @@
 								<img src="<%=p.getProductImage()%>" alt="" />
 								<h2>
 									$<%=p.getProductPrice()%></h2>
-								<p><%=p.getProductName()%></p>
+								<p>
+									<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+								</p>
 								<a href="#" class="btn btn-default add-to-cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng
@@ -118,7 +122,9 @@
 								<img src="<%=p.getProductImage()%>" alt="" />
 								<h2>
 									$<%=p.getProductPrice()%></h2>
-								<p><%=p.getProductName()%></p>
+								<p>
+									<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+								</p>
 								<a href="#" class="btn btn-default add-to-cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng
@@ -143,7 +149,9 @@
 								<img src="<%=p.getProductImage()%>" alt="" />
 								<h2>
 									$<%=p.getProductPrice()%></h2>
-								<p><%=p.getProductName()%></p>
+								<p>
+									<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+								</p>
 								<a href="#" class="btn btn-default add-to-cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng
@@ -167,7 +175,9 @@
 							<div class="productinfo text-center">
 								<img src="<%=p.getProductImage()%>" alt="" />
 								<h2><%=p.getProductPrice()%></h2>
-								<p><%=p.getProductName()%></p>
+								<p>
+									<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+								</p>
 								<a href="#" class="btn btn-default add-to-cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng
@@ -200,13 +210,14 @@
 									<img src="<%=p.getProductImage()%>" />
 									<h2>
 										$<%=p.getProductPrice()%></h2>
-									<p><%=p.getProductName()%></p>
+									<p>
+										<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+									</p>
 									<a href="#" class="btn btn-default add-to-cart">
 										<i class="fa fa-shopping-cart"></i>
 										Thêm vào giỏ hàng
 									</a>
 								</div>
-
 							</div>
 						</div>
 					</div>
@@ -226,13 +237,14 @@
 									<img src="<%=p.getProductImage()%>" />
 									<h2>
 										$<%=p.getProductPrice()%></h2>
-									<p><%=p.getProductName()%></p>
+									<p>
+										<a href="DetailProduct.jsp?productId=<%=p.getProductId()%>"><%=p.getProductName()%></a>
+									</p>
 									<a href="#" class="btn btn-default add-to-cart">
 										<i class="fa fa-shopping-cart"></i>
 										Thêm vào giỏ hàng
 									</a>
 								</div>
-
 							</div>
 						</div>
 					</div>

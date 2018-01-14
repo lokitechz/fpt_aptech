@@ -63,7 +63,7 @@
 								id="dataTables-example">
 								<thead>
 									<tr>
-										<th id="ID">ID</th>
+										<th id="ID">Mã danh mục</th>
 										<th id="Category">Tên danh mục</th>
 										<th id="Action">Tùy chọn</th>
 									</tr>
@@ -73,14 +73,15 @@
 										CategoryDao categoryDao = new CategoryDao();
 										for (Category c : categoryDao.getListCategory()) {
 									%>
-									<tr class="odd gradeX">
+									<tr class="odd">
 										<td><%=c.getCateId()%></td>
 										<td><%=c.getCateName()%></td>
 										<td align="center">
-											<a class="btn btn-default" onclick="">
+											<a class="btn btn-default"
+												href="${pageContext.request.contextPath}/ManagerCategoryServlet">
 												<em class="fa fa-pencil"></em>
 											</a>
-											<a class="btn btn-danger" onclick="">
+											<a class="btn btn-danger" href="">
 												<em class="fa fa-trash-o"></em>
 											</a>
 										</td>

@@ -94,12 +94,12 @@
 							<p>
 								Web ID:
 								<%=generateRandomNumber(000000, 999999)%></p>
-							<img src="images/product-details/rating.png" alt="" />
+							<img src="images/product-details/rating.png" />
 							<span>
 								<span>
 									$<%=p.getProductPrice()%></span>
 								<label>Quantity:</label>
-								<input type="text" value="3" />
+								<input type="text" value="1" />
 								<button type="button" class="btn btn-fefault cart">
 									<i class="fa fa-shopping-cart"></i>
 									Thêm vào giỏ hàng

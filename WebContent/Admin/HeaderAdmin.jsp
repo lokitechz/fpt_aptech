@@ -54,13 +54,14 @@
 
 				</li>
 				<li>
-					<a href="Admin.jsp">
+					<a href="${pageContext.request.contextPath}/Admin/Admin.jsp">
 						<i class="fa fa-dashboard fa-fw"></i>
 						Quản trị
 					</a>
 				</li>
 				<li>
-					<a href="ManagerCategory.jsp">
+					<a
+						href="${pageContext.request.contextPath}/Admin/ManagerCategory.jsp">
 						<i class="fa fa-list fa-fw"></i>
 						Danh sách sản phẩm
 					</a>

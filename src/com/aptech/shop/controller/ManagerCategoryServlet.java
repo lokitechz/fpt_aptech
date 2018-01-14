@@ -33,10 +33,8 @@ public class ManagerCategoryServlet extends HttpServlet {
 			throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
-
 		String cateName = request.getParameter("CateName");
 		String url = "";
-
 		try {
 			categoryDao.addCategory(cateName);
 			url = "/Admin/ManagerCategory.jsp";
