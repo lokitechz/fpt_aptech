@@ -7,12 +7,12 @@
 
 <title>Shopping online</title>
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/prettyPhoto.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/prettyPhoto.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/animate.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/main.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/responsive.css" rel="stylesheet">
 <link rel="shortcut icon" href="images/ico/favicon.ico">
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
@@ -29,11 +29,11 @@
 
 
 
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.scrollUp.min.js"></script>
-	<script src="js/price-range.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<script src="js/main.js"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery.js"></script>
+	<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery.scrollUp.min.js"></script>
+	<script src="${pageContext.request.contextPath}/js/price-range.js"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery.prettyPhoto.js"></script>
+	<script src="${pageContext.request.contextPath}/js/main.js"></script>
 </body>
 </html>

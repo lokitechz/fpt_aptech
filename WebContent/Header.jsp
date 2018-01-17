@@ -83,6 +83,12 @@
 									Đăng nhập
 								</a>
 							</li>
+							<li>
+								<a href="Register.jsp">
+									<i class="fa fa-user-o"></i>
+									Đăng ký
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
