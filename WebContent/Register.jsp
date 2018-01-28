@@ -32,6 +32,7 @@
 				<form action="#">
 					<input type="email" placeholder="Nhập địa chỉ email" required>
 					<input type="password" placeholder="Nhập mật khẩu" required>
+					<input type="password" placeholder="Nhập lại mật khẩu" required>
 					<button type="submit" class="btn btn-default">Đăng ký</button>
 				</form>
 			</div>

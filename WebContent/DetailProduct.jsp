@@ -12,13 +12,15 @@
 
 <title>Shopping online</title>
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/prettyPhoto.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link href="${pageContext.request.contextPath}/css/bootstrap.min.css"
+	rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/css/font-awesome-4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/main.css"
+	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/responsive.css"
+	rel="stylesheet">
 <body>
 	<!-- Random trường WebID -->
 	<%!public int generateRandomNumber(int start, int end) {
